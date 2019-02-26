@@ -1,4 +1,5 @@
-export function sendDataToWeb(str) {
-  Android.toastShow(str);
+function sendDataToWeb(str) {
   localStorage.setItem("val", str);
+
+  Android.toastShow(str);
 }
